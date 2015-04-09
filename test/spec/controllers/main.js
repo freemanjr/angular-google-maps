@@ -15,4 +15,8 @@ describe('Controller: MainCtrl', function () {
       $scope: scope
     });
   }));
+
+  it('should have map defined', function () {
+    expect(scope.map).toBeDefined();
+  });
 });
